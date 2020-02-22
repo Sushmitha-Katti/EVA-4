@@ -3,11 +3,11 @@
 . Set up the skeleton with dropout, batch Norm etc
 
 **Results** 
-. Parameters - 8064
-. Best training accuracy- 98.13
+. Parameters - 8064\n
+. Best training accuracy- 98.13\n
 . Best test accuracy - 99.17
 
-**Analysis**
+**Analysis**\n
 . Model is under-fitting
 . The gap between test and train is high
 . Capacity can be increased
