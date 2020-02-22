@@ -3,7 +3,7 @@
 . Set up the skeleton with dropout, batch Norm etc
 
 **Results** 
-. Parameters - 8064\n
+. Parameters - 8064 \n
 . Best training accuracy- 98.13\n
 . Best test accuracy - 99.17
 
