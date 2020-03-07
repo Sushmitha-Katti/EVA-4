@@ -1,4 +1,4 @@
-#Advanced Convolutions
+# Advanced Convolutions
 
 Used depthwise Convolution and Dialation Convolution On CIFAR10 dataset
 
