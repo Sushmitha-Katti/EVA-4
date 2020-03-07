@@ -1,11 +1,16 @@
+#Advanced Convolutions
+
+Used depthwise Convolution and Dialation Convolution On CIFAR10 dataset
+
 Total Epochs = 40
+
+Total Parameters = 111,920
 
 Achived Target in **25th** Epoch (81%)
 
 But Consistency can be seen from **27th** Epoch
 
 Best test Accuaracy **82.05%** in **37th** Epoch
-
 
 ## Files
 
