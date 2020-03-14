@@ -20,4 +20,4 @@ Random Horizontal Flip
 * Highest Test Accuracy: 89.17%
 
 ## Graph
-![Loss_Acc_graph][Loss_Acc%20graph.png]
+![Loss_Acc_graph][Loss_Acc graph.png]
