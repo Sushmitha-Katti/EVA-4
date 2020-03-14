@@ -1,5 +1,6 @@
 # Session 8
 **Data Set Worked On**: CIFAR
+
 **Architecture Used**: Resnet 18
 
 # Target 
@@ -19,4 +20,4 @@ Random Horizontal Flip
 * Highest Test Accuracy: 89.17%
 
 ## Graph
-[Loss_Acc_graph][https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session8/Loss_Acc%20graph.png]
+![Loss_Acc_graph][https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session8/Loss_Acc%20graph.png]
