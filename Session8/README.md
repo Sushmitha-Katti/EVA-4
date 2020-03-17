@@ -10,7 +10,7 @@ To Achive 85%+ Accuracy with RESNet 18 Architecture
 ## Image Agumentation
 Random Horizontal Flip
 
-## Other Configuaration
+## Other Regularisation technique
 * Dropout : 0.15
 * L2 Reguralisation : 0.0005
 * No Of Epochs : 40
