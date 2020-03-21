@@ -22,11 +22,11 @@ This Session played with various Data Augumentation techniques.**Albumentation**
    * To Tensor
 * **Code for misclassified images is also written**
 
-  (misclassified)('Assets/misclassify.png')
+  ![misclassified](Assets/misclassify.png)
 * Tried to write the code to save the mode and load it. But was not successfull.
 * Implemented GradCam with the help of ['https://github.com/vickyliin/gradcam_plus_plus-pytorch/tree/master/gradcam'] Code and modified   the code to show the activations of all the 4 layers.
 
-  (Gradcam)('Assets/GradCam.png')
+  ![Gradcam](Assets/GradCam.png)
   
 ## Numbers 
 * Architecture Used - Resnet18
@@ -36,6 +36,6 @@ This Session played with various Data Augumentation techniques.**Albumentation**
 * LR - StepLr- step_size(12)
 * Dropout - 0.1
 
-(validationgraph)('Assets/Test_Loss_and_Acc.png)
+![validationgraph](Assets/Test_Loss_and_Acc.png)
 
 **In GradCam the transformations used are torchVision, Since Albumentation was throwing error for resize and it was not conveting to 4 Channels**
