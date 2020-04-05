@@ -33,10 +33,10 @@ Introduced to Adam and RMSProps algorithmns as well.
 * Best Test Accuracy - 93.80%(42nd Epoch)
 * LR Finder Curve
 
-![LR Finder Curve](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Lr_finder_plot.png "Lr finder Curve")
+     ![LR Finder Curve](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Lr_finder_plot.png "Lr finder Curve")
 * Accuracy Change Graph
 
-![Accuracy Change Graph](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/AccuracyChange.png "Accuracy Change Graph")
+     ![Accuracy Change Graph](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/AccuracyChange.png "Accuracy Change Graph")
 * MisClassified Images
 ![Misclassified with GradCAm](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Misclassified_images_withGradCam.png "Misclassifed images with GradCam")
 
