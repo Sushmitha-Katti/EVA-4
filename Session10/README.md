@@ -29,8 +29,8 @@ Introduced to Adam and RMSProps algorithmns as well.
 * **No Of Epochs** - 50
 
 ## Results
-* Best Traing Accuracy - 97.30%(50th Epoch)
-* Best Test Accuracy - 93.80%(42nd Epoch)
+* Best Traing Accuracy - **97.30%(50th Epoch)**
+* Best Test Accuracy - **93.80%(42nd Epoch)**
 * LR Finder Curve
 
 ![LR Finder Curve](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Lr_finder_plot.png "Lr finder Curve")
