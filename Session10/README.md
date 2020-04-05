@@ -1,6 +1,8 @@
 # Training and Learning Rates
-This session largely covered on the Learning rate Algorithms. Mainly there was 2 **Constant Learning Rate** and **Adaptive Learning Rate*
-Discussed their pros and cons and when to use them
+This session largely covered on the Learning rate Algorithms. Mainly there was 2 **Constant Learning Rate Algorithms** and **Adaptive Learning Rate Algorithms** discussed their pros and cons and when to use them.
+
+Discussed various versions of SGD like **SGD, Mini batch SGD, SGD with momentum(normal momentum and nesterov momentum)**.
+Introduced to Adam and RMSProps algorithmns as well.
 
 ## Assignment
 * Implement LR Finder to find best LR
@@ -29,12 +31,11 @@ Discussed their pros and cons and when to use them
 ## Results
 * Best Traing Accuracy - 97.30%(50th Epoch)
 * Best Test Accuracy - 93.80%(42nd Epoch)
-* ![LR Finder Curve)(github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Lr_finder_plot.png "Lr finder Curve")
-* ![Accuracy Change Graph)(github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/AccuracyChange.png "Accuracy Change Graph")
+* ![LR Finder Curve](github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Lr_finder_plot.png "Lr finder Curve")
+* ![Accuracy Change Graph](github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/AccuracyChange.png "Accuracy Change Graph")
 * ![Missclassified with GradCAm](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Misclassified_images_withGradCam.png "Misclassifed images with GradCam")
 
 ## Observations
-* Model is slightly overfitting. Need to add more images agumentation.
-* Could have used ReduceLrOnPleateau in better way. Explored more parameters. Since there is no much change in accuracy at the end. It may be stucked at local minima or pleateau.
-* 
+* Model is slightly overfitting. Need to add more images agumentation techniques.
+* Could have used ReduceLrOnPleateau in better way, explored more parameters. Since there is no much change in accuracy at the end. It may be stucked at local minima or pleateau.
  
