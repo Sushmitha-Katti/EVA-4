@@ -31,9 +31,12 @@ Introduced to Adam and RMSProps algorithmns as well.
 ## Results
 * Best Traing Accuracy - 97.30%(50th Epoch)
 * Best Test Accuracy - 93.80%(42nd Epoch)
-* ![LR Finder Curve](github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Lr_finder_plot.png "Lr finder Curve")
-* ![Accuracy Change Graph](github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/AccuracyChange.png "Accuracy Change Graph")
-* ![Missclassified with GradCAm](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Misclassified_images_withGradCam.png "Misclassifed images with GradCam")
+* LR Finder Curve
+     ![LR Finder Curve](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Lr_finder_plot.png "Lr finder Curve")
+* Accuracy Change Graph
+     ![Accuracy Change Graph](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/AccuracyChange.png "Accuracy Change Graph")
+* MisClassified Images
+![Misclassified with GradCAm](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Misclassified_images_withGradCam.png "Misclassifed images with GradCam")
 
 ## Observations
 * Model is slightly overfitting. Need to add more images agumentation techniques.
