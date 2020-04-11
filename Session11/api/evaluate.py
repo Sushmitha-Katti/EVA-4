@@ -88,13 +88,18 @@ import matplotlib.pyplot as plt
 """
 args: 
 points should be of type list of tuples or lists
-Ex : [([....points],labe]),([....points],label)]
+Ex : [{[x: xpoints, y: ypoints, label: title, xlabel: "" , ylabel: " "}),([....points],label)]
 """
 def plot_curve(curves,title,Figsize = (7,7)):
     fig = plt.figure(figsize=Figsize)
     ax = plt.subplot()
     for curve in curves:
-        ax.plot(curve[0], label=curve[1])
+        if("x" not in curve):
+            ax.plot(curve["y"], label=curve.get("label", "label"))   
+        else:
+            ax.plot(curve["x"],curve["y"], label=curve.get("label","label"))
+        plt.xlabel(curve.get("xlabel","x-axis"))
+        plt.ylabel(curve.get("ylabel","y-axis"))
         plt.title(title)
     ax.legend()
     plt.show()
