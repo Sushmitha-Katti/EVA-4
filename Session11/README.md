@@ -1,6 +1,6 @@
 # Super Convergence
-This session was about history and evolution of Learning rates. Starategies adopted in using learning rate. 
-* **Learning rate Annealing** -Selecting a good starting learning rate is merely the first step. In order to efficiently train a robust model, we will need to gradually decrease the learning rate during training. If the learning rate remains unchanged during the course of training, it might be too large to converge and cause the loss function to fluctuate around the local minimum
+This session was about history and evolution of Learning rates. Strategies adopted in using learning rate. 
+* **Learning rate Annealing** - Selecting a good starting learning rate is merely the first step. In order to efficiently train a robust model, we will need to gradually decrease the learning rate during training. If the learning rate remains unchanged during the course of training, it might be too large to converge and cause the loss function to fluctuate around the local minimum
 In this type We have **PIECEWISE CONSTANT**, **REDUCE_LR_ON_PLATEAU**
 * **WarmUp Strategeis**
 
@@ -61,7 +61,7 @@ Both Cyclic Learning rate and One Cycle Policy was introduced by **LESLIE SMITH*
   * pct start - 0.0125
   * cyclic momentum -False
 
-## ** Results**
+## **Results**
 * Best Train Accuracy - **95.65%**
 * Best Test Accuracy - **91.73%**
 * Epoch v/s Lr
@@ -69,6 +69,7 @@ Both Cyclic Learning rate and One Cycle Policy was introduced by **LESLIE SMITH*
 ![](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/Lr.png)
 
 * Accuracy Graph
+
 ![](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/Accuracy_graph.png)
 
 * Misclassified images
