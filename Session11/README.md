@@ -69,11 +69,11 @@ Both Cyclic Learning rate and One Cycle Policy was introduced by **LESLIE SMITH*
 ![](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/Lr.png)
 
 * Accuracy Graph
-(https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/Accuracy_graph.png
+![](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/Accuracy_graph.png)
 
 * Misclassified images
 
-https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/misclassified_images.png
+![](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/misclassified_images.png)
 
 ## **Observations**
 
