@@ -53,7 +53,7 @@ Both Cyclic Learning rate and One Cycle Policy was introduced by **LESLIE SMITH*
 * Optimiser - SGD
   * Weight Decay - 0.05
   * Mometum - 0.9
-* Scheduler - One Cyclic Lr
+* Scheduler - One Cycl2 Lr
   * epoch - 24
   * Max  Lr - 0.0125
   * no of steps - 98
@@ -65,15 +65,15 @@ Both Cyclic Learning rate and One Cycle Policy was introduced by **LESLIE SMITH*
 * Best Test Accuracy - **91.73%**
 * Epoch v/s Lr
 
-!(https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/Lr.png)
+(https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/Lr.png)
 
 * Accuracy Graph
 
-!(https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/Accuracy_graph.png)
+(https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/Accuracy_graph.png)
 
 * Misclassified images
 
-!(https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/misclassified_images.png)
+(https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session11/Assets/misclassified_images.png)
 
 ## **Observations**
 
