@@ -14,7 +14,7 @@ rather than adopting a stepwise fixed or exponentially decreasing value
 
 ### One Cycle Policy 
 Similar to Cyclic Learning Rate, but here we have only one Cycle. The correct combination of momemtum, weight decay, Learning rate, batch size does magic.
-One Cycle Policy will not increase, but the reasons to use it are
+One Cycle Policy will not increase accuracy, but the reasons to use it are
 
 * It reduces the time it takes to reach "near" to your accuracy. 
 * It allows us to know if we are going right early on. 
