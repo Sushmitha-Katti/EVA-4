@@ -6,7 +6,7 @@ In this type We have **PIECEWISE CONSTANT**, **REDUCE_LR_ON_PLATEAU**
 
   * Constant Warmup
   * Gradual Warmup
- Both Cyclic Learning rate and One Cycle Policy was introduced by **LESLIE SMITH**
+ 
 ### Cyclic Learning Rate 
   The essence of the learning rate policy comes from the observation that increasing the LR might have a short term negative effect
 and yet achieve a longer-term beneficial effect. This observation leads to the idea of letting the LR vary within a range of values
