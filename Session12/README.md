@@ -64,7 +64,7 @@ Should train ResNet18  on **Tiny ImageNetData Set** and reach test accuracy of 5
  
  ![Mean IOU](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/IOU.png)
  
- ** K means with k = 3**
+ **K means with k = 3**
  
  ![K=3](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/K%3D3.png)
  
