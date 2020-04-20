@@ -17,7 +17,7 @@ Object Localisation is a very hard task to do because we should not only predict
 
 # *Assignment*
 
-## **Assignment A - Tiny ImageNet**[Code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/S12-AssignmentA/FinalCode.ipynb)
+## **Assignment A - Tiny ImageNet**  [Code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/S12-AssignmentA/FinalCode.ipynb)
 
 Should train ResNet18  on **Tiny ImageNetData Set** and reach test accuracy of 50%
 
@@ -47,7 +47,7 @@ Should train ResNet18  on **Tiny ImageNetData Set** and reach test accuracy of 5
 ![MisClassified](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/misclassified.png)
 
 
-## **Assignment B - Find out the best total numbers of clusters** [Code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/S12-AssignmentB/Clustering%20Dogs%20Bounding%20Boxes.ipynb)
+## **Assignment B - Find out the best total numbers of clusters**  [Code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/S12-AssignmentB/Clustering%20Dogs%20Bounding%20Boxes.ipynb)
    
  To download 50 dog images, annotate with vgg annotator, find out the best no of clusters
  
