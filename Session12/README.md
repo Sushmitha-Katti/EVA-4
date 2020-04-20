@@ -40,7 +40,12 @@ Should train ResNet18  on **Tiny ImageNetData Set** and reach test accuracy of 5
 1. Best train Accuracy - 74%
 2. Best test Accuracy - 57.69%
 4. Accuracy Change Graph
+
+![Accuracy Change](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/Accuracy%20Change.png)
+
 5. GradCam on MisClassified Images (All 4 layers)
+![MisClassified](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/misclassified.png)
+
 
 ## **Assignment B - Find out the best total numbers of clusters**
    
@@ -48,12 +53,23 @@ Should train ResNet18  on **Tiny ImageNetData Set** and reach test accuracy of 5
  
  **Visualisation of data**
  
+ ![data](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/data.png)
+ 
  **Elbow method to find out K**
+ 
+ ![elbow](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/elbow.png)
+ 
  
  **Mean Iou Method to find out k**
  
+ ![Mean IOU](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/IOU.png)
+ 
  ** K means with k = 3**
  
+ ![K=3](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/K%3D3.png)
+ 
  **K Means with k =4**
+ 
+ ![k=4](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/k%3D4.png)
 
 
