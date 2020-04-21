@@ -19,10 +19,11 @@ Object Localisation is a very hard task to do because we should not only predict
 
 ## **Assignment A - Tiny ImageNet**  [Code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/S12-AssignmentA/FinalCode.ipynb)
 
-## [Api can be found here](https://github.com/Sushmitha-Katti/PyTNet)
+
 Should train ResNet18  on **Tiny ImageNetData Set** and reach test accuracy of 50%
 
 ### **Implementation**
+**[Api can be found here](https://github.com/Sushmitha-Katti/PyTNet)**
 
 1. Wrote a Code to download, mix train and test , split and convert to the dataset format.
 2. Used One Cycle Policy as Scheduler. It yielded better and fast results than others
