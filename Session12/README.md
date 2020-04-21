@@ -25,6 +25,8 @@ Should train ResNet18  on **Tiny ImageNetData Set** and reach test accuracy of 5
 ### **Implementation**
 **[Api can be found here](https://github.com/Sushmitha-Katti/PyTNet)**
 
+No changes are done to previous files. Added tinyimagenet file for processing to tiny image net data.
+
 1. Wrote a Code to download, mix train and test , split and convert to the dataset format.
 2. Used One Cycle Policy as Scheduler. It yielded better and fast results than others
 3. Reached the target accuracy
