@@ -12,11 +12,10 @@ and class.
 4. Ran for 300 epochs.
 5 And then tried to predict for 3 classes.
 
-## Results
+## **Trained Samples**
 
-1. Train Data
 ![train_image](https://github.com/Sushmitha-Katti/Yolo-v3/blob/master/train_batch0.png)
 
-2. Detected image
+## **Results**
 ![result](https://github.com/Sushmitha-Katti/Yolo-v3/blob/master/test_batch0.png)
 
