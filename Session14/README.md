@@ -24,9 +24,8 @@
     
    That's all:hugs:We got around  400k fg-bg, 400k fg-bg-mask, 400k depth images:innocent:
     
-   #### But was it that simple as above? Not at all. That was just a brief. Lets look each steps in detail
+   ## But was it that simple as above? Not at all. That was just a brief. Lets look each steps in detail
 
-  <hr/>
   
    ### **:small_orange_diamond: Collecting 100 Background images** 
     
