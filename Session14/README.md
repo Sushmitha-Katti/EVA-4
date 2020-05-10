@@ -1,5 +1,5 @@
 # Table of Contents
-1. [Introduction](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#monocular-depth-estimation-and-segmentation)
+1. [Introduction](#monocular-depth-estimation-and-segmentation)
 2. [Steps followed - Brief](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#how-did-we-do-it-thinking)
 3. [Steps followed - In detail](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-each-steps-in-detail)
 4. [Data Statistcis](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#data-statistics-bar_chart)
