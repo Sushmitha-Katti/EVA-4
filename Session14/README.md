@@ -213,11 +213,11 @@
    
    **Some tips**
    
-     * Always use 3 channels to store images, since they consume less memory
-     * Only for foreground images use png images. we need to maintain transparency.
-     * Always use square images as background and use small image to overcome storage issues.
-     * Depth model is trained on kitti(city,roads etc..) and nyu(indoor) dataset. Try to use similar kind of data to get good depth images, since they act as ground truth for our model.
-     * Store the depth model and masks in gray scale since they require only 1 channels.
+   * Always use 3 channels to store images, since they consume less memory
+   * Only for foreground images use png images. we need to maintain transparency.
+   * Always use square images as background and use small image to overcome storage issues.
+   * Depth model is trained on kitti(city,roads etc..) and nyu(indoor) dataset. Try to use similar kind of data to get good depth images, since they act as ground truth for our model.
+   * Store the depth model and masks in gray scale since they require only 1 channels.
             
     
    
