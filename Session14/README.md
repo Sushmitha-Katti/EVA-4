@@ -25,7 +25,9 @@
    That's all:hugs:We got around  400k fg-bg, 400k fg-bg-mask, 400k depth images:innocent:
     
    #### But was it that simple as above? Not at all. That was just a brief. Lets look each steps in detail
-    
+
+  <hr/>
+  
    ### **:small_orange_diamond: Collecting 100 Background images** 
     
    * We chose **Living Room** as a background image theme.
@@ -72,7 +74,16 @@
    * We modified some portion of the code to get the results we want.
    * In **layers.py** we modified **resize_images as resize**, since the syntax was changed from tf>2.0
    * In **utils.py** 
-     * **Load Images** - added resize(448,448), since 224 is very small size, the output was not proper using
+     * **Load Images** - added resize(448,448), since 224 is very small size,and anyway the result is half the size of output. So we doubled the size.
+     * **display Images** - we converted the images to grayscale and saved the image.
+   * In **test.py** 
+     * we removed the glob and passed the direct images path.
+     * we processed the images as **batches**. 200 images per batch.
+     * So we ran for 80k/200 times
+     * In between colab used to crash, we changed the start number according to number of images already processed and run again for remaining images.
+   * Zipped the entire folder 
+   * Each depth image size is 2-3kb. Each of 5 zip files took around 260-290 MB of storage.
+   
    
    
    
