@@ -1,8 +1,8 @@
 # Table of Contents
 1. [Introduction](#monocular-depth-estimation-and-segmentation)
-2. [Steps followed - Brief](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#how-did-we-do-it-thinking)
-3. [Steps followed - In detail](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-each-steps-in-detail)
-4. [Data Statistcis](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#data-statistics-bar_chart)
+2. [Steps followed - Brief](#how-did-we-do-it-thinking)
+3. [Steps followed - In detail](#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-each-steps-in-detail)
+4. [Data Statistcis](#data-statistics-bar_chart)
 5. [References]
 6. [Future Work]
 
@@ -26,12 +26,12 @@
   
   ## **How did we do it :thinking:?**
   
-  1. [Collected 100 background images.](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-collecting-100-background-images)
-  2. [Collected 100 foreground images, removed it's background and made it transparent.](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-collecting-100-foreground-images)
-  3. [Created masks for 100 foreground images.](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-creating-mask-for-foreground-images)
-  3. [For each background images, overlapped each foreground images on 20 random positions.](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-overlapping-foreground-and-background-and-creating-mask)
-  4. [Got the mask of the overlapped images](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-overlapping-foreground-and-background-and-creating-mask)
-  5. [Got the depth for the overlapped foreground-background images.](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-generating-depth-images-for-fg-bg-images)
+  1. [Collected 100 background images.](#small_orange_diamond-collecting-100-background-images)
+  2. [Collected 100 foreground images, removed it's background and made it transparent.](#small_orange_diamond-collecting-100-foreground-images)
+  3. [Created masks for 100 foreground images.](#small_orange_diamond-creating-mask-for-foreground-images)
+  3. [For each background images, overlapped each foreground images on 20 random positions.](#small_orange_diamond-overlapping-foreground-and-background-and-creating-mask)
+  4. [Got the mask of the overlapped images](#small_orange_diamond-overlapping-foreground-and-background-and-creating-mask)
+  5. [Got the depth for the overlapped foreground-background images.](#small_orange_diamond-generating-depth-images-for-fg-bg-images)
  
   
   <br/>
