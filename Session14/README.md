@@ -35,7 +35,7 @@
     
    That's all:hugs: We got around  400k fg-bg, 400k fg-bg-mask, 400k depth images:innocent:
     
-   ## But was it that simple as above? Not at all. That was just a brief. Lets look each steps in detail:man_technologist:
+   ## But, was it that simple as above? Not at all. That was just a brief. Lets look at each steps in detail:man_technologist:
 
   
    ### **:small_orange_diamond: Collecting 100 Background images** 
@@ -158,7 +158,7 @@
             |────── labels.txt
             
   ### **:pushpin: Size and Storage**
-   * Total - 3.98GB
+   * Total - 4GB(Approx)
      * Background Images - 1.2MB
      * Foreground Images - 1.2MB
      * Mask - 333KB
