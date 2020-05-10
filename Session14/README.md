@@ -1,7 +1,7 @@
 # Table of Contents
 1. [Introduction](#monocular-depth-estimation-and-segmentation)
 2. [Steps followed - Brief](#how-did-we-do-it-thinking)
-3. [Steps followed - In detail](#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-each-steps-in-detailman_technologist)
+3. [Steps followed - In detail](#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-at-each-steps-in-detailman_technologist)
 4. [Data Statistcis](#data-statistics-bar_chart)
 5. [Conclusion](#conclusion1st_place_medal)
 6. [References](#references-books)
