@@ -5,7 +5,7 @@
 4. [Data Statistcis](#data-statistics-bar_chart)
 5. [Conclusion](#Conclusion)
 6. [References](#references-books)
-<br/>
+
 # **Monocular Depth Estimation and Segmentation** 
 
    !["Depth estimation"](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Extras/image.png)
