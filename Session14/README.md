@@ -3,7 +3,7 @@
 2. [Steps followed - Brief](#how-did-we-do-it-thinking)
 3. [Steps followed - In detail](#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-each-steps-in-detailman_technologist)
 4. [Data Statistcis](#data-statistics-bar_chart)
-5. [Conclusion](#Conclusion)
+5. [Conclusion](#Conclusion-1st_place_medal)
 6. [References](#references-books)
 
 # **Monocular Depth Estimation and Segmentation** 
@@ -204,7 +204,7 @@
    
         
         
-## **Conclusion :golf:**
+## **Conclusion:1st_place_medal:**
 
    This is how we created our dataset. There is lot of improvement can be done though. In depth images ram crashes after 3-4k images, we need to restart the program. This can be improvised by using garbage collector and deleting the variables which takes huge chunk of data.
    
