@@ -21,10 +21,12 @@
   3. For each background images, overlapped each foreground images on 20 random positions.
   4. Got the mask of the overlapped images
   5. Got the depth for the overlapped foreground-background images.
+  6. Merged the folders and zipped it.
+  7. Calsulated Mean and Standard Deviation of fg-bg images.
   
   <br/>
     
-   That's all:hugs:We got around  400k fg-bg, 400k fg-bg-mask, 400k depth images:innocent:
+   That's all:hugs: We got around  400k fg-bg, 400k fg-bg-mask, 400k depth images:innocent:
     
    ## But was it that simple as above? Not at all. That was just a brief. Lets look each steps in detail
 
@@ -83,7 +85,33 @@
      * So we ran for 80k/200 times
      * In between colab used to crash, we changed the start number according to number of images already processed and run again for remaining images.
    * Zipped the entire folder 
-   * Each depth image size is 2-3kb. Each of 5 zip files took around 260-290 MB of storage.
+   * Each depth image size is 2-3kb. Each of 5 zip files took around 260-290 MB of storage. It took around 3-4 hours to generate depth for 80k images.
+   
+   ### **:small_orange_diamond: Merging the coreesponding fg-bg and depth images**
+   
+   * Since we have 5 fg-bg zip, 5 and depth zip, we thought of merging each of 1 fg-bg zip with corresponding depth zip.
+   * It took around 20 min and finally we have 5 zips of approx 800MB. Used [this](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Merge_files.ipynb) code.
+   
+   ### ** :small_orange_diamond: Calculation Of Mean and Standard Deviation**
+   
+   * Used [this code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Mean_and_Std_of_Dataset.ipynb) to calculate mean and std of image. Mean and std are important to apply transformation, to normalise the data etc..
+   
+   
+   ## Data Statistics :bar_chart:
+   
+   ### **:pushpin:** Folder Structure
+   
+            ├── Foreground
+            |────── fg1.jpg
+            |────── fg2.jpg
+            |────── .... 
+            |── ──── fg100.jpg
+            
+    
+   
+   
+   
+   
    
    
    
