@@ -157,7 +157,8 @@
      * Mask - 333KB
      * Dataset - 3.92GB
      * Labels - 52MB
-   (these values are generated from **du** command in colab)
+     <br/>
+   (Above values are generated from **du** command in colab)
    
    ### **:pushpin: Sample Images**
    
