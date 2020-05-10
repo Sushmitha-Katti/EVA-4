@@ -1,7 +1,7 @@
 # Table of Contents
 1. [Introduction](#monocular-depth-estimation-and-segmentation)
 2. [Steps followed - Brief](#how-did-we-do-it-thinking)
-3. [Steps followed - In detail](#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-each-steps-in-detail)
+3. [Steps followed - In detail](#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-each-steps-in-detail-man_technologist)
 4. [Data Statistcis](#data-statistics-bar_chart)
 5. [Conclusion](#Conclusion)
 6. [References](#references-books)
@@ -40,7 +40,7 @@
     
    That's all:hugs: We got around  400k fg-bg, 400k fg-bg-mask, 400k depth images:innocent:
     
-   ## But was it that simple as above? Not at all. That was just a brief. Lets look each steps in detail
+   ## But was it that simple as above? Not at all. That was just a brief. Lets look each steps in detail:man_technologist:
 
   
    ### **:small_orange_diamond: Collecting 100 Background images** 
