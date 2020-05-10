@@ -1,5 +1,7 @@
 # **Monocular Depth Estimation and Segmentation Data Preparation** 
 
+   !["Depth estimation"](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Extras/image.png)
+
  Data is the :heart: of AI/ML, without data AI/ML is nothing.So data preparation plays a important role in research. Without a correct data
  AI/ML is just **GIGO**(Garbage In Garbage Out).:wastebasket: :arrow_right: :wastebasket:
  <br/>
