@@ -5,7 +5,7 @@
 4. [Data Statistcis](#data-statistics-bar_chart)
 5. [Conclusion](#Conclusion)
 6. [References](#references-books)
-<br/>
+
 <br/>
 
 # **Monocular Depth Estimation and Segmentation** 
