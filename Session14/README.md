@@ -204,7 +204,7 @@
    
         
         
-## **Conclusion**
+## **Conclusion :golf:**
 
    This is how we created our dataset. There is lot of improvement can be done though. In depth images ram crashes after 3-4k images, we need to restart the program. This can be improvised by using garbage collector and deleting the variables which takes huge chunk of data.
    
