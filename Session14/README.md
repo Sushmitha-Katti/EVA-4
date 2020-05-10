@@ -3,8 +3,8 @@
 2. [Steps followed - Brief](#how-did-we-do-it-thinking)
 3. [Steps followed - In detail](#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-each-steps-in-detail)
 4. [Data Statistcis](#data-statistics-bar_chart)
-5. [References]
-6. [Future Work]
+5. [Conclusion](#Conclusion)
+6. [References]
 
 
 
@@ -205,8 +205,18 @@
    | Fg-Bg-Mask           | [0.04608837, 0.04608837, 0.04608837] |  [0.20544916, 0.20544916, 0.20544916] |
    | Depth-Images         | [0.50911522, 0.50911522, 0.50911522] |  [0.28174302, 0.28174302, 0.28174302] |
    
-         
-            
+        
+        
+## **Conclusion**
+
+   This is how we created our dataset. There is lot of improvement can be done though. In depth images ram crashes after 3-4k images, we need to restart the program. This can be improvised by using garbage collector and deleting the variables which takes huge chunk of data.
+   
+   **Some tips**
+     * Always use 3 channels to store images, since they consume less memory
+     * Only for foreground images use png images. we need to maintain transparency.
+     * Always use square images as background and use small image to overcome storage issues.
+     * Depth model is trained on kitti(city,roads etc..) and nyu(indoor) dataset. Try to use similar kind of data to get good depth images, since they act as ground truth for our model.
+     * Store the depth model and masks in gray scale since they require only 1 channels.
             
     
    
