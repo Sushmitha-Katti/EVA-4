@@ -92,9 +92,10 @@
    * Since we have 5 fg-bg zip, 5 and depth zip, we thought of merging each of 1 fg-bg zip with corresponding depth zip.
    * It took around 20 min and finally we have 5 zips of approx 800MB. Used [this](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Merge_files.ipynb) code.
    
-   ### ** :small_orange_diamond: Calculation Of Mean and Standard Deviation**
+   ### **:small_orange_diamond: Calculation Of Mean and Standard Deviation and generating labels**
    
    * Used [this code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Mean_and_Std_of_Dataset.ipynb) to calculate mean and std of image. Mean and std are important to apply transformation, to normalise the data etc..
+   * Used [this code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Generate_Labels.ipynb) to generate the path of all images. It is in a order **FG BG FG-BG FG-BG-Mask Depth**
    
    
    ## Data Statistics :bar_chart:
@@ -102,10 +103,47 @@
    ### **:pushpin:** Folder Structure
    
             ├── Foreground
-            |────── fg1.jpg
-            |────── fg2.jpg
+            |────── fg1.png
+            |────── fg2.png
             |────── .... 
-            |── ──── fg100.jpg
+            |
+            |────── fg100.png
+            |── Background
+            |────── bg1.jpg
+            |────── bg2. jpg
+            |────── ....
+            |────── bg100.jpg
+            |
+            |── Dataset
+            |────── data_part1.zip
+            |──────────── data_1
+            |────────────────── Fg-Bg
+            |──────────────────────── fg-bg <1-80k>.jpg
+            |──────────────────────── Fg-Bg-Mask
+            |──────────────────────── fg-bg-mask<1-80k>.jpg
+            |──────────────────────── Depth
+            |──────────────────────── depth<1-80k>.jpg\
+            |────── data_part2.zip
+            |──────────── data_2
+            |────────────────── Fg-Bg
+            |──────────────────────── fg-bg <80.1k-160k>.jpg
+            |──────────────────────── Fg-Bg-Mask
+            |──────────────────────── fg-bg-mask<80.1k-160k>.jpg
+            |──────────────────────── Depth
+            |──────────────────────── depth<80.1k-160k>.jpg
+            |────── .....
+            |────── data_part5.zip
+            |──────────── data_2
+            |────────────────── Fg-Bg
+            |──────────────────────── fg-bg <320.1k-400k>.jpg
+            |──────────────────────── Fg-Bg-Mask
+            |──────────────────────── fg-bg-mask<320.1k-400k>.jpg
+            |──────────────────────── Depth
+            |──────────────────────── depth<320.1k-400k>.jpg
+            |
+            |────── labels.txt
+            
+            
             
     
    
