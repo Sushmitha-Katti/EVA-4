@@ -1,7 +1,7 @@
 # **Monocular Depth Estimation and Segmentation Data Preparation** 
 
  Data is the :heart: of AI/ML, without data AI/ML is nothing.So data preparation plays a important role in research. Without a correct data
- AI/ML is just **GIGO**(Garbage In Garbage Out).![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40seanjpan%2Fgarbage-in-garbage-out-2e781f4d014a&psig=AOvVaw3s3EXHOqNYPWfsdWwgpJDv&ust=1589194590441000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDIpa-RqekCFQAAAAAdAAAAABAI)
+ AI/ML is just **GIGO**(Garbage In Garbage Out).:wastebasket: :arrow_right: :wastebasket:
  <br/>
  First we need to collect data, pre-process it and bring it to the form that our algorithm understands.
 
