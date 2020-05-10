@@ -1,3 +1,14 @@
+# Table of Contents
+1. [Introduction](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#monocular-depth-estimation-and-segmentation)
+2. [Steps followed - Brief](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#how-did-we-do-it-thinking)
+3. [Steps followed - In detail](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-each-steps-in-detail)
+4. [Data Statistcis](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#data-statistics-bar_chart)
+5. [References]
+6. [Future Work]
+
+
+
+
 # **Monocular Depth Estimation and Segmentation** 
 
    !["Depth estimation"](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Extras/image.png)
@@ -15,14 +26,13 @@
   
   ## **How did we do it :thinking:?**
   
-  1. Collected 100 background images.
-  2. Collected 100 foreground images, removed it's background and made it transparent.
-  3. Created masks for 100 foreground images.
-  3. For each background images, overlapped each foreground images on 20 random positions.
-  4. Got the mask of the overlapped images
-  5. Got the depth for the overlapped foreground-background images.
-  6. Merged the folders and zipped it.
-  7. Calsulated Mean and Standard Deviation of fg-bg images.
+  1. [Collected 100 background images.](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-collecting-100-background-images)
+  2. [Collected 100 foreground images, removed it's background and made it transparent.](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-collecting-100-foreground-images)
+  3. [Created masks for 100 foreground images.](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-creating-mask-for-foreground-images)
+  3. [For each background images, overlapped each foreground images on 20 random positions.](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-overlapping-foreground-and-background-and-creating-mask)
+  4. [Got the mask of the overlapped images](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-overlapping-foreground-and-background-and-creating-mask)
+  5. [Got the depth for the overlapped foreground-background images.](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14#small_orange_diamond-generating-depth-images-for-fg-bg-images)
+ 
   
   <br/>
     
@@ -87,7 +97,7 @@
    * Zipped the entire folder 
    * Each depth image size is 2-3kb. Each of 5 zip files took around 260-290 MB of storage. It took around 3-4 hours to generate depth for 80k images.
    
-   ### **:small_orange_diamond: Merging the coreesponding fg-bg and depth images**
+   ### **:small_orange_diamond: Merging the coresponding fg-bg and depth images**
    
    * Since we have 5 fg-bg zip, 5 and depth zip, we thought of merging each of 1 fg-bg zip with corresponding depth zip.
    * It took around 20 min and finally we have 5 zips of approx 800MB. Used [this](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Merge_files.ipynb) code.
