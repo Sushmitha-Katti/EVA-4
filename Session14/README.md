@@ -4,11 +4,13 @@
 3. [Steps followed - In detail](#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-each-steps-in-detail)
 4. [Data Statistcis](#data-statistics-bar_chart)
 5. [Conclusion](#Conclusion)
-6. [References]
+6. [References](#References)
 
 
 
-
+<br/>
+<br/>
+<br/>
 # **Monocular Depth Estimation and Segmentation** 
 
    !["Depth estimation"](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Extras/image.png)
@@ -218,6 +220,16 @@
    * Always use square images as background and use small image to overcome storage issues.
    * Depth model is trained on kitti(city,roads etc..) and nyu(indoor) dataset. Try to use similar kind of data to get good depth images, since they act as ground truth for our model.
    * Store the depth model and masks in gray scale since they require only 1 channels.
+   
+   
+## **References**
+* [Overlap and masking](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Overlap_and_mask.ipynb)
+* [Referred Depth model](https://github.com/ialhashim/DenseDepth)
+* [Modified Depth model](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Final_Depth_Model.ipynb)
+* [Merge all 10 zips to 5](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Merge_files.ipynb)
+* [Generate labels](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Generate_Labels.ipynb)
+* [Data Statistics](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/data_statistics.ipynb)
+* [Drive Link for Data](https://drive.google.com/open?id=1RbJHVxo91jhekv3_E9GZvujUDNDaxFQu)
             
     
    
