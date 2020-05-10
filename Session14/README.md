@@ -114,6 +114,12 @@
             |   └───── ....
             |   └───── bg100.jpg
             |
+            |── Mask
+            |   └───── mask1.jpg
+            |   └───── mask2. jpg
+            |   └───── ....
+            |   └───── mask100.jpg
+            |
             |── Dataset
             |   └───── data_part1.zip
             |   |      └───── data_1
@@ -138,16 +144,31 @@
             |   |       |      └───── Fg-Bg
             |   |       |      |     └───── fg-bg <320k-400k>.jpg
             |   |       |      └──── Fg-Bg-Mask
-            |   |       |      |     └───── fg-bg-mask<300k-400k>.jpg
+            |   |       |      |     └───── fg-bg-mask<320k-400k>.jpg
             |   |       |      └──── Depth
-            |   |       |      |     └────── depth<300-400k>.jpg
+            |   |       |      |     └────── depth<320-400k>.jpg
             |
             |────── labels.txt
             
   ### **:pushpin: Size and Storage**
-   * Background Images - 1.2 MB
-   * Foreground Images - 1.2 MB
-   * Mask - 333 K
+   * Total - 3.98GB
+         * Background Images - 1.2MB
+         * Foreground Images - 1.2MB
+         * Mask - 333KB
+         * Dataset - 3.92GB
+         * Labels - 52MB
+   (these values are generated from **du** command in colab)
+   
+   ### **:pushpin: Sample Images**
+   
+   
+   ### **Mean and Standard Deviation**
+   
+   |        Type          |                Mean                  |                 STD                   |
+   | ---------------------| -------------------------------------| --------------------------------------|
+   | Fg-Bg                | [0.65830478, 0.61511271, 0.5740604 ] |  [0.24408717, 0.2542491, 0.26870159]  |
+   | Fg-Bg-Mask           | [0.04608837, 0.04608837, 0.04608837] |  [0.20544916, 0.20544916, 0.20544916] |
+   | Depth-Images         | [0.50911522, 0.50911522, 0.50911522] |  [0.28174302, 0.28174302, 0.28174302] |
    
          
             
