@@ -29,7 +29,7 @@
     
    That's all :innocent: We got around  400k fg-bg, 400k fg-bg-mask, 400k depth images :hugs:
     
-   ## But it was as simple as above? Not at all. That was just a brief. Lets look each steps in detail
+   #### But was it that simple as above? Not at all. That was just a brief. Lets look each steps in detail
     
    ### **:small_orange_diamond: Collecting 100 Background images** 
     
@@ -42,8 +42,8 @@
             
    * we chose **Humans** as foreground image theme.
    * Collected 100 different types of humans, with single, multiple humans etc.
-   * Removed their background using PPT(ever thought you can do that? It possible!) and saved as png(Only png images give transparent images, since they have 4 channels-4th channel represents transparency )
-   * We kept their size aroung 100-120 px as height. We maintained aspect ratio. Else humans would look wierd.
+   * Removed their background using **PPT**(ever thought you can do that? It possible!) and saved as **png**(Only png images give transparent images, since they have 4 channels-4th channel represents transparency )
+   * We kept their size aroung 100-120 px as height. We maintained aspect ratio. Else humans would look wierd:sweat_smile:
     
   
 
