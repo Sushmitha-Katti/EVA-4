@@ -152,17 +152,17 @@
             
   ### **:pushpin: Size and Storage**
    * Total - 3.98GB
-         * Background Images - 1.2MB
-         * Foreground Images - 1.2MB
-         * Mask - 333KB
-         * Dataset - 3.92GB
-         * Labels - 52MB
+     * Background Images - 1.2MB
+     * Foreground Images - 1.2MB
+     * Mask - 333KB
+     * Dataset - 3.92GB
+     * Labels - 52MB
    (these values are generated from **du** command in colab)
    
    ### **:pushpin: Sample Images**
    
    
-   ### **Mean and Standard Deviation**
+   ### **:pushpin: Mean and Standard Deviation**
    
    |        Type          |                Mean                  |                 STD                   |
    | ---------------------| -------------------------------------| --------------------------------------|
