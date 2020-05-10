@@ -212,6 +212,7 @@
    This is how we created our dataset. There is lot of improvement can be done though. In depth images ram crashes after 3-4k images, we need to restart the program. This can be improvised by using garbage collector and deleting the variables which takes huge chunk of data.
    
    **Some tips**
+   
      * Always use 3 channels to store images, since they consume less memory
      * Only for foreground images use png images. we need to maintain transparency.
      * Always use square images as background and use small image to overcome storage issues.
