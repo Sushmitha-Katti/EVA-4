@@ -161,6 +161,30 @@
    (Above values are generated from **du** command in colab)
    
    ### **:pushpin: Sample Images**
+   * **Background Images**
+   
+   ![Background](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Images/background.png)
+   
+   * **Foreground Images**
+    
+   ![Foreground](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Images/Foreground.png)
+   
+ 
+   * **Foreground Masks**
+   
+   ![Mask](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Images/Mask.png)
+   
+   * **Foreground Background Images**
+   
+   ![Fg-Bg](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Images/fg-bg.png)
+   
+  * **Foreground Background Mask Images**
+  
+  ![Fg-Bg-Mask](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Images/fg-bg-mask.png)
+  
+  * **Depth Images**
+  
+  ![Depth](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Images/depth.png)
    
    
    ### **:pushpin: Mean and Standard Deviation**
