@@ -1,4 +1,4 @@
-# **Monocular Depth Estimation and Segmentation Data Preparation** 
+# **Monocular Depth Estimation and Segmentation** 
 
    !["Depth estimation"](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Extras/image.png)
 
