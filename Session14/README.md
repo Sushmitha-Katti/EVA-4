@@ -34,17 +34,17 @@
     
    ### **1. Collecting 100 Background images** 
     
-  * We chose **Living Room** as a background image theme.
-  * Collected 100 different types living rooms.
-  * Resized all to **224x224**. Size can be anything between 150 to 250. But choosing the large size image can increase the storage
+   * We chose **Living Room** as a background image theme.
+   * Collected 100 different types living rooms.
+   * Resized all to **224x224**. Size can be anything between 150 to 250. But choosing the large size image can increase the storage
              so better stick to small images.
              
-    ### **2.  Collecting 100 Foreground images**
+  ### **2.  Collecting 100 Foreground images**
             
-     * we chose **Humans** as foreground image theme.
-     * Collected 100 different types of humans, with single, multiple humans etc.
-     * Removed their background using PPT(ever thought you can do that? It possible!) and saved as png(Only png images give transparent images, since they have 4 channels-4th channel represents transparency )
-     * We kept their size aroung 100-120 px as height. We maintained aspect ratio. Else humans would look wierd.
+   * we chose **Humans** as foreground image theme.
+   * Collected 100 different types of humans, with single, multiple humans etc.
+   * Removed their background using PPT(ever thought you can do that? It possible!) and saved as png(Only png images give transparent images, since they have 4 channels-4th channel represents transparency )
+   * We kept their size aroung 100-120 px as height. We maintained aspect ratio. Else humans would look wierd.
     
   
 
