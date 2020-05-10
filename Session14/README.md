@@ -222,7 +222,7 @@
    * Store the depth model and masks in gray scale since they require only 1 channels.
    
    
-## **References**
+## **References :books:**
 * [Overlap and masking](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Overlap_and_mask.ipynb)
 * [Referred Depth model](https://github.com/ialhashim/DenseDepth)
 * [Modified Depth model](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Final_Depth_Model.ipynb)
