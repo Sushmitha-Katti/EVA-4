@@ -157,14 +157,22 @@
             |
             |────── labels.txt
             
-  ### **:pushpin: Size and Storage**
+  ### **:pushpin: Data Size and Count**
    * Total - 4GB(Approx)
      * Background Images - 1.2MB
      * Foreground Images - 1.2MB
      * Mask - 333KB
      * Dataset - 3.92GB
      * Labels - 52MB
-     <br/>
+     |            Type              |  Count |   Shape   | Storage
+     |------------------------------|--------|-----------|-----------
+     |Foreground Images             |100     | Variable  | 1.2MB
+     |Background Images             |100     | 224x224x3 | 1.2MB
+     |Foreground Mask               |100     | variable  | 333KB
+     |Foreground-Background Images  |400k    | 224x224x3   All 3 equals
+     |Foreground-Background Mask    |400k    | 224x224x1   3.92GB
+     |Depth Images                  |400k    | 224x224x1 | 
+                                                    Total| 4 GB                                               
    (Above values are generated from **du** command in colab)
    
    ### **:pushpin: Sample Images**
