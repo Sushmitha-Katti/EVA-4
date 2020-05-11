@@ -164,6 +164,7 @@
      * Mask - 333KB
      * Dataset - 3.92GB
      * Labels - 52MB
+     
      |            Type              |  Count |   Shape   | Storage
      |------------------------------|--------|-----------|-----------
      |Foreground Images             |100     | Variable  | 1.2MB
