@@ -101,7 +101,7 @@
    
    ### **:small_orange_diamond: Calculation Of Mean and Standard Deviation and generating labels**
    
-   * Used [this code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Mean_and_Std_of_Dataset.ipynb) to calculate mean and std of image. Mean and std are important to apply transformation, to normalise the data etc..
+   * Used [this code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/data_statistics.ipynb) to calculate mean and std of image. Mean and std are important to apply transformation, to normalise the data etc..
    * Used [this code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Generate_Labels.ipynb) to generate the path of all images. It is in a order **FG BG FG-BG FG-BG-Mask Depth**
    
    
