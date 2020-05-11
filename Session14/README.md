@@ -135,7 +135,7 @@
             |   |       |      └──── Fg-Bg-Mask
             |   |       |      |     └───── fg-bg-mask<1-80k>.jpg
             |   |       |      └──── Depth
-            |   |       |      |     └────── depth<1-80k>.jpg\
+            |   |       |      |     └────── depth<1-80k>.jpg
             |   └───── data_part2.zip
             |   |      └───── data_2
             |   |       |      └───── Fg-Bg
