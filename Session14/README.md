@@ -233,7 +233,7 @@
 * [Drive Link for Data](https://drive.google.com/open?id=1RbJHVxo91jhekv3_E9GZvujUDNDaxFQu)
 
 ## **Team Members**
-* Sushmitha M Katti
+* Sushmitha M Kattu
 * Shilpa M
 * Noopur Agarwal
 * Deeksha Pandith
