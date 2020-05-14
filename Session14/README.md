@@ -231,6 +231,13 @@
 * [Generate labels](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Generate_Labels.ipynb)
 * [Data Statistics](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/data_statistics.ipynb)
 * [Drive Link for Data](https://drive.google.com/open?id=1RbJHVxo91jhekv3_E9GZvujUDNDaxFQu)
+
+## **Team Members**
+* Sushmitha M Kattu
+* Shilpa M
+* Noopur Agarwal
+* Deeksha Pandith
+* Srinivasan G
             
     
    
