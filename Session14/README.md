@@ -4,7 +4,8 @@
 3. [Steps followed - In detail](#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-at-each-steps-in-detailman_technologist)
 4. [Data Statistcis](#data-statistics-bar_chart)
 5. [Conclusion](#conclusion1st_place_medal)
-6. [References](#references-books)
+6. [References(the link to data and github files used for this project)](#references-books)
+7. [Team Members](#Team Members)
 
 # **Monocular Depth Estimation and Segmentation** 
 
@@ -26,9 +27,8 @@
   1. [Collected 100 background images.](#small_orange_diamond-collecting-100-background-images)
   2. [Collected 100 foreground images, removed it's background and made it transparent.](#small_orange_diamond-collecting-100-foreground-images)
   3. [Created masks for 100 foreground images.](#small_orange_diamond-creating-mask-for-foreground-images)
-  3. [For each background images, overlapped each foreground images on 20 random positions.](#small_orange_diamond-overlapping-foreground-and-background-and-creating-mask)
-  4. [Got the mask of the overlapped images](#small_orange_diamond-overlapping-foreground-and-background-and-creating-mask)
-  5. [Got the depth for the overlapped foreground-background images.](#small_orange_diamond-generating-depth-images-for-fg-bg-images)
+  4. [For each background images, overlapped each foreground images and their masks on 20 random positions and created their masks as well](#small_orange_diamond-overlapping-foreground-and-background-and-creating-mask)
+  5. [Create the depth images for the foreground-background images.](#small_orange_diamond-generating-depth-images-for-fg-bg-images)
  
   
   <br/>
@@ -63,10 +63,10 @@
    
    ### **:small_orange_diamond: Overlapping foreground and background and creating mask**
    
-   * By this we had 100 background, 100 foreground and mask images.
+   * By now we had 100 background, 100 foreground and images.
    * Since we were 5 in a team we decided to create 80k images each.
    * [This](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session14/Overlap_and_mask.ipynb) is the code we followed.
-   * For each background images, we took 20 foreground images,their flips, mask and flips masks images and overlapped 20 times at 20 random positions
+   * For each background images, we overlapped 20 foreground images,their flip images in 20 random positions and generated masks as well.
    * For flips we used PIL modules **Image.FLIP_LEFT_RIGHT** function.
    * To generate masks for overlayed images, first we generated black background of size same as background image and overlayed the foreground mask on top of it.
    * For overlaying, we used **bg.paste(fg, (r1,r2),fg)**, where bg is background image, fg is foreground image, (r1,r2) are the top-left overlayed position. We generated those from random numbers.
@@ -233,7 +233,7 @@
 * [Drive Link for Data](https://drive.google.com/open?id=1RbJHVxo91jhekv3_E9GZvujUDNDaxFQu)
 
 ## **Team Members**
-* Sushmitha M Kattu
+* Sushmitha M Katti
 * Shilpa M
 * Noopur Agarwal
 * Deeksha Pandith
