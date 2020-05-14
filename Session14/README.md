@@ -4,9 +4,8 @@
 3. [Steps followed - In detail](#but-was-it-that-simple-as-above-not-at-all-that-was-just-a-brief-lets-look-at-each-steps-in-detailman_technologist)
 4. [Data Statistcis](#data-statistics-bar_chart)
 5. [Conclusion](#conclusion1st_place_medal)
-6. [References - link to data and github files used for this project](#references-books)
-
-7. [Team Members](#Team Members)
+6. [References link to data and github files used for this project](#references-books)
+7.[Team Members](#Team Members)
 
 # **Monocular Depth Estimation and Segmentation** 
 
