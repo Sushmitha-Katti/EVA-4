@@ -5,6 +5,7 @@
 4. [Data Statistcis](#data-statistics-bar_chart)
 5. [Conclusion](#conclusion1st_place_medal)
 6. [References - link to data and github files used for this project](#references-books)
+
 7. [Team Members](#Team Members)
 
 # **Monocular Depth Estimation and Segmentation** 
