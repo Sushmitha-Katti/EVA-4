@@ -17,3 +17,6 @@ Object detection, Object reconisation, segmentation, monocular depth estimation.
 13. YoloV3 implementation on Custom created dataset via transfer learning - [link](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session13)
 14. Dataset Creation for Monocular depth Estimation and Segmentation - [link](https://github.com/Sushmitha-Katti/EVA-4/tree/master/Session14)
 15. Final Assignment - Monocular depth Estimation and Segmentation - [link](https://github.com/Sushmitha-Katti/Monocular-Depth-Estimation-and-Segmentation)
+
+
+**PytNet - Contains all the functions used for these assignment. Custom library built on top of Pytorch**. - [link](https://github.com/Sushmitha-Katti/PyTNet)
